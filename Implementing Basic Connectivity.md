@@ -1,6 +1,6 @@
 # Cisco Packet Tracer Lab — Implementing Basic Connectivity
 
-## 📌 Project Overview
+## Project Overview
 This lab focuses on implementing **basic network connectivity** by configuring switches and end devices using Cisco Packet Tracer.
 
 The objective is not only to configure devices, but to **understand how communication is established, verified, and troubleshot** in a real network environment.
@@ -9,27 +9,25 @@ This lab builds directly on prior work involving **initial switch configuration 
 
 ---
 
-## 🎯 Lab Requirements
+## Lab Requirements
 
-The lab required the following:
-
-### 🔹 Part 1: Switch Configuration
+###  Part 1: Switch Configuration
 - Assign hostnames to S1 and S2
 - Secure console access using a password
 - Configure privileged EXEC mode access
 - Configure a Message of the Day (MOTD) banner
 - Save configuration to NVRAM
 
-### 🔹 Part 2: End Device Configuration
+###  Part 2: End Device Configuration
 - Assign IP addresses to PC1 and PC2
 - Ensure both PCs are in the same subnet
 
-### 🔹 Part 3: Switch Management Configuration
+### Part 3: Switch Management Configuration
 - Assign IP addresses to VLAN 1 on both switches
 - Activate the VLAN interface
 - Verify configuration using CLI commands
 
-### 🔹 Part 4: Connectivity Verification
+### Part 4: Connectivity Verification
 - Use ***ping*** to test communication between:
   - PC1 ↔ PC2
   - PC1 ↔ S1
@@ -38,7 +36,7 @@ The lab required the following:
 
 ---
 
-## 🌐 Network Topology
+##  Network Topology
 
 Devices used:
 - 2 × Cisco 2960 Switches (S1, S2)
@@ -48,7 +46,7 @@ Each PC connects to a switch, and the switches are interconnected.
 
 ---
 
-## 📊 Addressing Scheme
+##  Addressing Scheme
 
 | Device | Interface | IP Address       | Subnet Mask       |
 |--------|----------|------------------|-------------------|
@@ -59,7 +57,7 @@ Each PC connects to a switch, and the switches are interconnected.
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 - Cisco Packet Tracer
 - Cisco IOS CLI
@@ -71,11 +69,11 @@ Each PC connects to a switch, and the switches are interconnected.
 
 ---
 
-## ⚙️ Implementation Steps
+## Implementation Steps
 
 ---
 
-### 🔹 Step 1: Configure Switch S1
+### Step 1: Configure Switch S1
 
 ```bash
 enable
