@@ -1,12 +1,12 @@
 # 🌐 Cisco Packet Tracer Lab: Connect a Router to a LAN
 
-## 📌 Overview
+## Overview
 
 This lab demonstrates how to connect routers to local area networks (LANs), configure interfaces, and verify connectivity across multiple devices. It builds practical skills in network configuration, troubleshooting, and verification using Cisco CLI.
 
 ---
 
-## 🧠 Key Concepts
+## Key Concepts
 
 - Interface configuration and activation
 - IP addressing and subnetting
@@ -16,7 +16,7 @@ This lab demonstrates how to connect routers to local area networks (LANs), conf
 
 ---
 
-## 🔐 Access Router CLI
+## Access Router CLI
 
 Open each router → CLI tab
 
@@ -31,7 +31,7 @@ enable
 
 ---
 
-## 🔍 Part 1: Display Router Information
+## Part 1: Display Router Information
 
 ### Show all interfaces
 show interfaces
@@ -47,7 +47,7 @@ show ip route
 
 ---
 
-## ⚙️ Part 2: Configure Router Interfaces
+## Part 2: Configure Router Interfaces
 
 ### Configure R1
 
@@ -95,7 +95,7 @@ copy running-config startup-config
 
 ---
 
-## 🔎 Part 3: Verify Configuration
+##  Part 3: Verify Configuration
 
 ### Check interface status
 show ip interface brief
@@ -111,7 +111,7 @@ show ip route
 
 ---
 
-## 🌍 Test Connectivity
+##  Test Connectivity
 
 From PC1:
 ping 10.1.2.10
@@ -121,7 +121,7 @@ ping 192.168.11.10
 
 ---
 
-## ⚠️ Common Issues
+##  Common Issues
 
 - Interface is down → missing 'no shutdown'
 - Wrong IP address → check addressing table
@@ -130,7 +130,7 @@ ping 192.168.11.10
 
 ---
 
-## 💡 Key Takeaways
+##  Key Takeaways
 
 - Always verify after configuration
 - Interfaces must be manually enabled
@@ -141,5 +141,5 @@ ping 192.168.11.10
 
 ## 👩🏾‍💻 Author
 
-Boitumelo Moshoete  
+Boitumelo Lux  
 Aspiring Network & Cloud Engineer  
